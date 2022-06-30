@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/monkee/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&display=swap" rel="stylesheet">
+  </head>
+  <nav class="sticky top-0 z-50">
+    <div class="flex justify-between items-center flex-wrap bg-white py-6 lg:px-40 md:px-20 px-10">
+      <div><a href="#">
+          <p class="text:2xl lg:text-4xl px-2 lg:pt-2 border-black border-4 bebas">CLASSEEMONKEE</p>
+        </a></div>
+      <div class="lg:hidden"><button id="nav-toggle"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg></button></div>
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content" align="right">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center space-x-10">
+          <li class="text-2xl font-semibold hover:text-red-500 transition duration-200 cursor-pointer bebas"><a href="#">HOME</a></li>
+          <li class="text-2xl font-semibold hover:text-red-500 transition duration-200 cursor-pointer bebas"><a href="#roadmap">ROADMAP</a></li>
+          <li class="text-2xl font-semibold hover:text-red-500 transition duration-200 cursor-pointer bebas"><a href="https://twitter.com/classeemonkee" target="_blank">TWITTER</a></li>
+          <li class="text-2xl font-semibold hover:text-red-500 transition duration-200 cursor-pointer bebas"><a href="https://discord.gg/krMfytq8Dn" target="_blank">DISCORD</a></li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      document.getElementById('nav-toggle').onclick = function() {
+        document.getElementById("nav-content").classList.toggle("hidden");
+      }
+    </script>
+  </nav>
+  <body>
+    <div class="h-full lg:h-screen">
+      <div class="flex justify-center"><img src="/monkee/Galery.png" /></div>
+      <div class="flex justify-center">
+        <h1 class="text-xl font-bold">SCROLL DOWN</h1>
+      </div>
+      <div class="flex justify-center"><svg class="h-12 w-12" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="m16.843 10.211c.108-.141.157-.3.157-.456 0-.389-.306-.755-.749-.755h-8.501c-.445 0-.75.367-.75.755 0 .157.05.316.159.457 1.203 1.554 3.252 4.199 4.258 5.498.142.184.36.29.592.29.23 0 .449-.107.591-.291 1.002-1.299 3.044-3.945 4.243-5.498z" />
+        </svg></div>
+    </div>
+    <div class="flex justify-center py-6 lg:px-40 md:px-20 px-10">
+      <p class="text:2xl lg:text-4xl px-2 lg:pt-2 border-black border-4 bebas">MONKEE THEOREE</p>
+    </div>
+    <div class="flex items-center justify-center px-4 lg:px-4">
+      <card class="relative rounded-lg">
+        <div class="w-full h-full bottom-0 bg-orange-500 bg-opacity-25 border-4 rounded-lg flex flex-col items-center justify-center text-center">
+          <p class="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold p-2 md:p-8"> Roughly in the year of 420, a group of unruly monkeys roamed Earth, but lived a life of grey routine that revolved on lazing around when they were not eating. All this changed with the unexpected collision between Rodeus and Syno, two planets coming together that would bring about a great change to the DNA of monkeys roaming Earth, through an immense light and substance that travelled space. These affected the monkeys and made them more human (humanoids) blessing them with skills to interact, learn and invent to benefit their generation and the next. What started as simple farming soon evolved to creating patterned clothing and it was not long before they were the apex species of their habitat. Unfortunately, bad omen struck in the form of countless meteors ranging in size from a ping pong to a household refrigerator, which rained upon Earth and wiped out part of it. This resulted in an almost mass extinction. Fortunately, a handful of the monkeys were able to survive the impact and scavenged for sustenance. Due to the finite resources, they turned on each other and split into two gangs called 'Monkey Blood' and 'Monkey Loss'. They lived through a harsh period of infighting and intense rivalry. As a result, the two gangs recruited newcomers. Along with 5555 new monkeys ready to join the battle, get ready to choose your own gang. </p>
+        </div>
+      </card>
+    </div>
+    <div id="roadmap" class="flex justify-center mt-14">
+      <p class="text:2xl lg:text-4xl px-2 lg:pt-2 border-black border-4 bebas">R O A D M E E P</p>
+    </div>
+    <div class="flex items-center justify-center mt-14"><img src="/monkee/roadmap.png" /></div>
+    <div class="flex items-center justify-center mt-14">
+      <div class="flex justify-between items-center">
+        <ul class="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold" style="list-style-type:disc">
+          <li>Coming soon!</li>
+          <li>Building the community</li>
+          <li>Minting day</li>
+          <li>Community decide what to come...</li>
+        </ul><img src="/monkee/Dot.png" class="h-0 lg:h-96" />
+      </div>
+    </div>
+    <div class="flex justify-center mt-14">
+      <p class="text:2xl lg:text-4xl px-2 lg:pt-2 border-black border-4 bebas">T E A M</p>
+    </div>
+    <section id="team">
+      <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+        <div class="flex flex-col items-center p-8 rounded-xl"><img class="object-cover w-36 h-36 rounded-full ring-4" src="/monkee/wahyu.gif" alt="">
+          <h1 class="mt-4 text-4xl font-semibold bebas text-center">MADMONKEE</h1>
+          <p class="text-2xl text-center">Founder</p>
+        </div>
+        <div class="flex flex-col items-center p-8 rounded-xl"><img class="object-cover w-36 h-36 rounded-full ring-4" src="/monkee/wahbe.png" alt="">
+          <h1 class="mt-4 text-4xl font-semibold bebas text-center">JACKSON</h1>
+          <p class="text-2xl text-center">Co-Founder</p>
+        </div>
+    </section>
+    <div>
+      <div class="flex justify-center mt-14">
+        <p class="text:2xl lg:text-4xl px-2 lg:pt-2 border-black border-4 bebas">F A Q</p>
+      </div>
+      <section>
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full lg:w-1/2 sm:mx-auto sm:mb-2 -mx-2">
+            <div class="w-full px-4 py-2 bebas">
+              <details class="mb-4">
+                <summary class="font-semibold rounded-md text-lg sm:text-xl md:text-2xl lg:text-4xl"> What are classee monkee? </summary><span class="text-md md:text-xl lg:text-2xl"> classee monkee is a collection of 5555 monkee built in solana. </span>
+              </details>
+              <details class="mb-4">
+                <summary class="font-semibold rounded-md text-lg sm:text-xl md:text-2xl lg:text-4xl"> Where can i buy classee monkee? </summary><span class="text-md md:text-xl lg:text-2xl"> You can mint on launchmynft but in an unspecified time (stealth mint) and secondary market like Magic Eden, Coral Cube and Opensea. </span>
+              </details>
+              <details class="mb-4">
+                <summary class="font-semibold rounded-md text-lg sm:text-xl md:text-2xl lg:text-4xl"> What are the perks of owning a classee monkee? </summary><span class="text-md md:text-xl lg:text-2xl"> Join our community and be part of the early journey as true degens. and get benefits in the future. </span>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
